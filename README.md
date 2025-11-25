@@ -9,7 +9,7 @@ Agente conversacional que califica prospectos usando metodología BANT (Budget, 
 - 📅 **Agendamiento automático** de reuniones
 - 💾 **Integración con CRM** (mock JSON por ahora, preparado para MongoDB)
 - 🔧 **Multi-tenant**: Cada cliente puede personalizar su agente
-- 📱 **WhatsApp ready**: Recibe webhooks de Spicy
+- 📱 **WhatsApp ready**: Recibe webhooks de Whatsapp
 - 🚀 **Escalable**: Arquitectura preparada para producción
 
 ## 📁 Estructura del Proyecto
@@ -153,7 +153,7 @@ custom_config = TenantConfig(
 )
 ```
 
-## 🔗 Integración con Spicy (WhatsApp)
+## 🔗 Integración con WhatsApp
 
 El webhook en `/webhook/whatsapp` espera recibir mensajes en este formato:
 ```json
